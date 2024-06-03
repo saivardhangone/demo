@@ -1,0 +1,25 @@
+sample content
+
+navigate to project folder inside
+:/>demo/
+open terminal
+:/>git init -> only one time very first time
+----------------------------------------------
+:/> git status -> it shows uncommited files.
+----------------------------------------------
+:/> git add . -> it will add all files into local git repo with stage mode only, not commited.
+------------------------------------------------
+:/> git commit -m "commit message" -> now it will perminent commit to local git repo.
+-----------------------------------------------------------
+
+configuring remote with local repo
+:/> git remote add origin <Remote repo url from github>
+:/> git remote add origin https://github.com/saivardhangone/demo.git 
+
+now we linked our local git with github repo. this is also required only once.
+----------------------------------------------------------------------------
+To push local changes to remote
+:/> git push -u origin <branch name>
+:/> git push -u origin master-> now local changes are pushed into remote.
+-------------------------------------------------------------------------------
+
